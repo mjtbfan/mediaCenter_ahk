@@ -1,0 +1,2 @@
+xinput1_3.dll needs to be copied in this folder for XInput to work, or just change the XInput.ahk idc
+-> you can find xinput1_3.dll on any install of Windows 10 by just searching C:\Windows for the file
