@@ -1,0 +1,100 @@
+; Format for adding CORE configs
+; TYPE { instr(TYPE) }
+; CONFIG { appended config for each CORE listed }
+; DEFAULT { if CORE not found, reset config to default }
+
+CONTROLLER {
+Xbox (P1 Gamepad)
+Xbox (No Gamepad)
+}
+CONFIG {
+emulate = Wii U Pro Controller
+}
+
+CONTROLLER {
+Xbox (P1 GP) (Alt)
+Xbox (No GP) (Alt)
+}
+CONFIG {
+emulate = Wii U Pro Controller
+1 = button_2
+2 = button_1
+3 = button_8
+4 = button_4
+}
+
+CONTROLLER {
+GCN Adapter
+}
+CONFIG {
+emulate = Wii U Pro Controller
+api = DirectInput
+controller = 1880CDC0-0A1B-11E9-8009-444553540000
+rumble = 0
+leftRange = 1.35
+rightRange = 1.35
+leftDeadzone = 0.2
+rightDeadzone = 0.2
+buttonThreshold = 0.5
+1 = button_1
+2 = button_2
+3 = button_4
+4 = button_8
+5 = button_100000000
+6 = button_800000000
+7 = key_220
+8 = button_10
+9 = button_80
+10 = key_220
+11 = key_220
+12 = button_100
+13 = button_200
+14 = button_400
+15 = button_800
+16 = key_220
+17 = key_220
+18 = button_2000000000
+19 = button_80000000
+20 = button_1000000000
+21 = button_40000000
+22 = button_10000000000
+23 = button_400000000
+24 = button_8000000000
+25 = button_200000000
+}
+
+DEFAULT {
+api = XInput
+controller = 3
+rumble = 1
+leftRange = 1.25
+rightRange = 1.25
+leftDeadzone = 0.20
+rightDeadzone = 0.20
+buttonThreshold = 0.5
+1 = button_1
+2 = button_2
+3 = button_4
+4 = button_8
+5 = button_10
+6 = button_20
+7 = button_100000000
+8 = button_800000000
+9 = button_40
+10 = button_80
+11 = button_4000000
+12 = button_4000000
+13 = button_8000000
+14 = button_10000000
+15 = button_20000000
+16 = button_100
+17 = button_200
+18 = button_80000000
+19 = button_2000000000
+20 = button_1000000000
+21 = button_40000000
+22 = button_400000000
+23 = button_10000000000
+24 = button_8000000000
+25 = button_200000000
+}

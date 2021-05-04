@@ -1,0 +1,17 @@
+CONTROLLER {
+Xbox (Wii & Nunchuk)
+}
+CONFIG {
+Source = 1
+}
+
+CONTROLLER {
+Wiimotes
+}
+CONFIG {
+Source = 2
+}
+
+DEFAULT {
+Source = 0
+}

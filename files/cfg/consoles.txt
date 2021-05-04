@@ -1,0 +1,319 @@
+; ----- Structure -----
+;[Name/Names of System][Seperated by brackets] 
+;romDir = where roms for this system are stored
+;nameIndex = difference from end of path where the name of rom is stored
+;            ex: nameIndex = 1 -> C:\Roms\Playstation\[Metal Gear]\game.zip
+;exts = all possible file extensions for system roms
+;emu = name of emulator based on ahk file name
+;controls = types of control layouts supported by system
+;controlImgDir = where the control imgs for system is stored
+
+CONSOLE {
+Arcade
+ARC
+}
+CONFIG {
+romDir = D:\Roms\Arcade
+exts = .zip
+controls = Xbox Controllers
+controlImgDir = C:\Launchbox\Images\Game Controls\Arcade
+core = mame_libretro.dll
+}
+
+CONSOLE {
+NES
+}
+CONFIG {
+romDir = D:\Roms\NES
+exts = .nes, .fds
+controls = Xbox Controllers, Xbox (Alternate), USB SNES
+controlImgDir = C:\Launchbox\Images\Game Controls\Nintendo Entertainment System
+core = mesen_libretro.dll
+}
+
+CONSOLE {
+Genesis
+GEN
+}
+CONFIG {
+romDir = D:\Roms\Genesis
+exts = .bin, .md, .gen, .iso, .cue, .32x
+controls = Xbox Controllers, Xbox (Alternate), USB Genesis
+controlImgDir = C:\Launchbox\Images\Game Controls\Sega Genesis
+core = picodrive_libretro.dll
+}
+CONSOLE {
+SNES
+}
+CONFIG {
+romDir = D:\Roms\SNES
+exts = .sfc, .smc
+controls = Xbox Controllers, Xbox (Alternate), USB SNES
+controlImgDir = C:\Launchbox\Images\Game Controls\Super Nintendo Entertainment System
+core = higan_sfc_libretro.dll
+}
+
+CONSOLE {
+Saturn
+SAT
+}
+CONFIG {
+romDir = D:\Roms\Saturn
+exts = .chd, .cue, .m3u
+controls = Xbox Controllers, Xbox (Alternate)
+controlImgDir = C:\Launchbox\Images\Game Controls\Sega Saturn
+core = kronos_libretro.dll
+}
+
+CONSOLE {
+Playstation
+PSX
+}
+CONFIG {
+romDir = D:\Roms\Playstation
+exts = .chd, .cue, .pbp, .m3u
+controls = Xbox Controllers
+controlImgDir = C:\Launchbox\Images\Game Controls\Sony Playstation
+core = mednafen_psx_hw_libretro.dll
+}
+
+CONSOLE {
+Nintendo 64
+N64
+}
+CONFIG {
+romDir = D:\Roms\N64
+exts = .z64, .n64
+controls = Xbox Controllers, Xbox (Alternate), USB N64, GCN Adapter
+controlImgDir = C:\Launchbox\Images\Game Controls\Nintendo 64
+core = mupen64plus_next_libretro.dll
+}
+
+CONSOLE {
+Dreamcast
+DC
+}
+CONFIG {
+romDir = D:\Roms\Dreamcast
+exts = .chd, .gdi, .cdi, .m3u
+controls = Xbox Controllers
+controlImgDir = C:\Launchbox\Images\Game Controls\Sega Dreamcast
+core = flycast_libretro.dll
+}
+
+CONSOLE {
+GameBoy
+GB
+GBC
+}
+CONFIG {
+romDir = D:\Roms\GB
+exts = .gb, .gbc
+controls = Xbox Controllers, Xbox (Alternate), USB SNES
+controlImgDir = C:\Launchbox\Images\Game Controls\Nintendo Game Boy
+core = gambatte_libretro.dll
+}
+
+CONSOLE {
+GameBoy Advance
+GBA
+}
+CONFIG {
+romDir = D:\Roms\GBA
+exts = .gba
+controls = Xbox Controllers, Xbox (Alternate), USB SNES
+controlImgDir = C:\Launchbox\Images\Game Controls\Nintendo Game Boy Advance
+core = mgba_libretro.dll
+}
+
+CONSOLE {
+Arcade
+ARC
+NES
+Genesis
+GEN
+SNES
+Saturn
+SAT
+Playstation
+PSX
+Nintendo 64
+N64
+Dreamcast
+DC
+GameBoy
+GB
+GBC
+GameBoy Advance
+GBA
+}
+CONFIG {
+nameIndex = 0
+emu = retroarch
+emuDir = C:\Emulators\Default\Retroarch\
+emuExe = retroarch
+canPause = 1
+}
+
+CONSOLE {
+Playstation 2
+PS2
+}
+CONFIG {
+romDir = D:\Roms\Playstation 2
+nameIndex = 0
+exts = .iso
+emu = pcsx2
+emuDir = C:\Emulators\Default\PCSX2\
+emuExe = pcsx2
+controls = Xbox Controllers
+controlImgDir = C:\Launchbox\Images\Game Controls\Sony Playstation 2
+}
+
+CONSOLE {
+GameCube
+GCN
+}
+CONFIG {
+romDir = D:\Roms\Gamecube
+nameIndex = 0
+exts = .rvz, .iso, .m3u
+emu = dolphin
+emuDir = C:\Emulators\Default\Dolphin\
+emuExe = Dolphin
+controls = Xbox Controllers, GCN Adapter
+controlImgDir = C:\Launchbox\Images\Game Controls\Nintendo GameCube
+}
+
+CONSOLE {
+Wii
+WII
+}
+CONFIG {
+romDir = D:\Roms\Wii
+nameIndex = 0
+exts = .rvz, .iso, .elf, .wad
+emu = dolphin
+emuDir = C:\Emulators\Default\Dolphin\
+emuExe = Dolphin
+controls = Xbox (GCN Controller), Xbox (Wii & Nunchuk), GCN Adapter, Wiimotes
+controlImgDir = C:\Launchbox\Images\Game Controls\Nintendo Wii
+}
+
+CONSOLE {
+Xbox 360
+X360
+}
+CONFIG {
+romDir = D:\Roms\Xbox 360
+nameIndex = 0
+exts = .iso, 
+emu = xenia
+emuDir = C:\Emulators\Default\Xenia\
+emuExe = xenia_canary
+controls = Xbox Controllers
+controlImgDir = C:\Launchbox\Images\Game Controls\Microsoft Xbox 360
+}
+
+CONSOLE {
+Playstation 3
+PS3
+}
+CONFIG {
+romDir = D:\Roms\Playstation 3
+nameIndex = 2
+exts = .bin
+emu = rpcs3
+emuDir = C:\Emulators\Default\RPCS3\
+emuExe = rpcs3
+controls = Xbox Controllers
+controlImgDir = C:\Launchbox\Images\Game Controls\Sony Playstation 3
+}
+
+CONSOLE {
+Wii U
+WII U
+}
+CONFIG {
+romDir = D:\Roms\Wii U
+nameIndex = 2
+exts = .rpx
+emu = cemu
+emuDir = C:\Emulators\Default\Cemu\
+emuExe = Cemu
+controls = Xbox (P1 Gamepad), Xbox (P1 GP) (Alt)
+, Xbox (No Gamepad), Xbox (No GP) (Alt), GCN Adapter
+controlImgDir = C:\Launchbox\Images\Game Controls\Nintendo Wii U
+}
+
+CONSOLE {
+Switch
+NSW
+}
+CONFIG {
+romDir = D:\Roms\Switch
+nameIndex = 0
+exts = .nca
+emu = ryujinx
+emuDir = C:\Emulators\Default\Ryujinx\
+emuExe = Ryujinx
+controls = Xbox Controllers, Xbox (Alternate)
+controlImgDir = C:\Launchbox\Images\Game Controls\Nintendo Switch
+}
+
+CONSOLE {
+Nintendo DS
+DS
+}
+CONFIG {
+romDir = D:\Roms\DS
+nameIndex = 0
+exts = .nds
+emu = desmume
+emuDir = C:\Emulators\Default\DeSmuME\
+emuExe = DeSmuME
+controls = Xbox Controllers, Xbox (Alternate)
+controlImgDir = C:\Launchbox\Images\Game Controls\Nintendo DS
+}
+
+CONSOLE {
+Nintendo 3DS
+3DS
+}
+CONFIG {
+romDir = D:\Roms\3DS
+nameIndex = 1
+exts = .3ds, .cxi
+emu = citra
+emuDir = C:\Emulators\Default\Citra\
+emuExe = citra-qt
+controls = Xbox Controllers, Xbox (Alternate)
+controlImgDir = C:\Launchbox\Images\Game Controls\Nintendo 3DS
+}
+
+CONSOLE {
+PSP
+}
+CONFIG {
+romDir = D:\Roms\PSP
+nameIndex = 0
+exts = .iso
+emu = ppsspp
+emuDir = C:\Emulators\Default\PPSSPP\
+emuExe = PPSSPPWindows64
+controls = Xbox Controllers
+controlImgDir = C:\Launchbox\Images\Game Controls\Sony PSP
+}
+
+CONSOLE {
+Windows
+PC
+}
+CONFIG {
+romDir = 
+nameIndex = 
+exts = 
+emu = windows
+controls = Xbox Controllers
+controlImgDir = C:\Launchbox\Images\Game Controls\Windows
+}

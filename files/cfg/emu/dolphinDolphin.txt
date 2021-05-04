@@ -1,0 +1,42 @@
+CONTROLLER {
+GCN Adapter
+}
+CONFIG {
+SIDevice0 = 12
+SIDevice1 = 12
+SIDevice2 = 12
+SIDevice3 = 12
+}
+
+CONTROLLER {
+Xbox (Wii & Nunchuk)
+}
+CONFIG {
+SIDevice0 = 0
+SIDevice1 = 0
+SIDevice2 = 0
+SIDevice3 = 0
+WiimoteContinuousScanning = True
+WiimoteEnableSpeaker = False
+}
+
+CONTROLLER {
+Wiimotes
+}
+CONFIG {
+SIDevice0 = 0
+SIDevice1 = 0
+SIDevice2 = 0
+SIDevice3 = 0
+WiimoteContinuousScanning = True
+WiimoteEnableSpeaker = True
+}
+
+DEFAULT {
+SIDevice0 = 6
+SIDevice1 = 6
+SIDevice2 = 6
+SIDevice3 = 6
+WiimoteContinuousScanning = False
+WiimoteEnableSpeaker = False
+}

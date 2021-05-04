@@ -1,0 +1,95 @@
+N64 { 
+Super Smash Bros..z64
+}
+CONFIG {
+GCN Adapter
+}
+
+GCN { 
+Super Smash Bros. Melee.iso
+}
+CONFIG {
+GCN Adapter
+}
+
+WII {
+Super Smash Bros. Brawl.iso
+}
+CONFIG {
+GCN Adapter
+}
+
+WII {
+Animal Crossing Wii.rvz
+Blob07.rvz
+Donkey Kong Jungle Beat - New Play Control.rvz
+Wii Play.rvz
+New SUPER MARIO BROS. Wii.rvz
+SUPER MARIO GALAXY.rvz
+Sonic and the Black Knight (USA) (En,Ja,Fr,De,Es,It).rvz
+Pokemon Battle Revolution (USA).rvz
+Mario Strikers Charged.rvz
+Mario Super Sluggers.rvz
+NO MORE HEROES.rvz
+WarioWare - Smooth Moves.rvz
+Disney Epic Mickey.rvz
+TRAUMA TEAM.rvz
+Kirby Wii.rvz
+Mario Party 8.rvz
+RVL-NigaoeNR-v6.wad
+SPORTS PACK for REVOLUTION.rvz
+Sonic and the Secret Rings (USA) (En,Ja,Fr,De,Es,It).rvz
+Pikmin Wii.rvz
+MARIO SPORTS MIX.rvz
+The Legend of Zelda Skyward Sword.rvz
+Xenoblade Chronicles.rvz
+Super Paper Mario (USA) (v1.02).rvz
+RHYTHM HEAVEN FEVER.rvz
+Okami.rvz
+Wii Play - Motion (USA).rvz
+Donkey Kong Country Returns.rvz
+Wario Land - Shake It! (USA) (En,Fr,Es).rvz
+Punch Out.rvz
+WSP2 US(P).rvz
+Pikmin 2 Wii.rvz
+resident evil 4 Wii edition (E).rvz
+MadWorld.rvz
+House of the Dead 2 & 3 Return, The (USA) (En,Fr,Es).rvz
+MARIO & SONIC At The OlympicGames.rvz
+Samba de Amigo (USA) (En,Fr,Es).rvz
+Kirby's Epic Yarn.rvz
+Metroid Prime Trilogy (USA).rvz
+No More Heroes 2 - Desperate Struggle.rvz
+Klonoa.rvz
+}
+CONFIG {
+Wiimotes
+}
+
+WII U {
+Super Smash Bros. for Wii U [AXFE0101]
+}
+CONFIG {
+GCN Adapter
+}
+
+WII U {
+Legend of Zelda Wind Waker HD
+The Legend of Zelda Breath of the Wild [ALZE0101]
+Yoshi's Woolly World [AYCE0101]
+MONSTER HUNTER 3 ULTIMATE [AHDE08]
+Donkey Kong Country Tropical Freeze [ARKE0101]
+New SUPER MARIO BROS. U +  New SUPER LUIGI U [ATWE0101]
+Mario Tennis Ultra Smash [AVXE0101]
+Xenoblade Chronicles X [AX5E0101]
+TEKKEN TAG TOURNAMENT 2 Wii U EDITION [AKNEAFAF]
+Sonic & All-Stars Racing Transformed [AS2E8P]
+FAST Racing NEO [WFSEJX]
+PIKMIN 3 [AC3E0101]
+BAYONETTA 2 [AQUE0101]
+Legend of Zelda Twilight Princess HD
+MARIO KART 8 [AMKE0101]
+}
+CONFIG {
+Xbox (No Gamepad)
+}

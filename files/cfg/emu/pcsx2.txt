@@ -1,0 +1,85 @@
+cfgPath = inis\
+
+[Ape Escape 2.iso] Ape Escape 2
+[Ape Escape 3.iso] Ape Escape 3
+[Armored Core 3.iso] Armored Core 3
+[Berserk - Millennium Falcon (English v1.1).iso] Berserk Millennium Falcon Hen Seima Senki no Shou
+[Bully (USA).iso] Bully
+[Burnout 3 - Takedown (USA).iso] Burnout 3 Takedown
+[Chulip.iso] Chulip
+[Crash Twinsanity.iso] Crash Twinsanity
+[Dark Cloud 2 (USA) (v2.00).iso] Dark Cloud 2
+[Dark Cloud.iso] Dark Cloud
+[Dawn of Mana (USA).iso] Dawn of Mana
+[Def Jam - Fight for NY (USA).iso] Def Jam Fight for NY
+[Destroy All Humans! (USA).iso] Destroy All Humans!
+[Devil May Cry 3 - Dante's Awakening - Special Edition.iso] Devil May Cry 3 Dante's Awakening Special Edition
+[Devil May Cry.iso] Devil May Cry
+[Devil May Cry 2 (USA) (Disc 1) (Dante Disc).iso] Devil May Cry 2
+[Devil May Cry 2 (USA) (Disc 2) (Lucia Disc).iso] Devil May Cry 2
+[Disney's Kim Possible - What's the Switch (USA).iso] Kim Possible What's the Switch
+[Dragon Ball Z - Budokai 3.iso] Dragon Ball Z Budokai 3
+[Dragon Quest VIII - Journey of the Cursed King (USA).iso] Dragon Quest VIII Journey of the Cursed King
+[Final Fantasy X.iso] Final Fantasy X
+[Final Fantasy XII (USA).iso] Final Fantasy XII
+[God Hand (USA).iso] God Hand
+[God of War II (USA).iso] God of War II
+[God of War.iso] God of War
+[Gran Turismo 4 (USA).iso] Gran Turismo 4
+[Guilty Gear XX Accent Core Plus (USA).iso] Guilty Gear XX Accent Core Plus
+[Harry Potter and the Chamber of Secrets.iso] Harry Potter and the Chamber of Secrets
+[Ico.iso] ICO
+[Jak 3.iso] Jak 3
+[Jak and Daxter - The Precursor Legacy.iso] Jak and Daxter The Precursor Legacy
+[Jak II.iso] Jak II
+[Jeopardy! (USA).iso] Jeopardy
+[Jojo no Kimyou na Bouken - Ougon no Kaze (Japan).iso] GioGio's Bizzare Adventure
+[Katamari Damacy.iso] Katamari Damacy
+[We Love Katamari (USA).iso] Katamari Damacy
+[Kingdom Hearts - Re-Chain of Memories.iso] Kingdom Hearts Re Chain of Memories
+[Kingdom Hearts II.iso] Kingdom Hearts II
+[Kingdom Hearts.iso] Kingdom Hearts
+[Klonoa 2 - Lunatea's Veil (USA).iso] Klonoa 2 Lunatea's Veil
+[Max Payne 2 - The Fall of Max Payne (USA).iso] Max Payne 2 The Fall of Max Payne
+[Max Payne.iso] Max Payne
+[Metal Gear Solid 2 - Substance.iso] Metal Gear Solid 2 Substance
+[Metal Gear Solid 3 - Subsistence (USA) (En,Es) (Disc 1) (Subsistence Disc).iso] Metal Gear Solid 3 Subsistence
+[MX Unleashed (USA).iso] MX Unleashed
+[MX vs. ATV Unleashed (USA).iso] MX vs. ATV Unleashed
+[Naruto Shippuden - Ultimate Ninja 5.iso] Naruto Shippuden Ultimate Ninja 5
+[Need for Speed - Carbon.iso] Need for Speed Carbon
+[NiGHTS into Dreams... (Japan).iso] NiGHTS into Dreams1
+[OutRun 2006 - Coast 2 Coast (USA) (En,Fr,Es).iso] OutRun 2006 Coast 2 Coast
+[PaRappa the Rapper 2.iso] PaRappa The Rapper 2
+[Persona 3 FES.iso] Shin Megami Tensei Persona 3 FES
+[Persona 4.iso] Shin Megami Tensei Persona 4
+[Prince of Persia - The Sands of Time.iso] Prince of Persia The Sands of Time
+[Ratchet & Clank - Going Commando.iso] Ratchet & Clank Going Commando
+[Ratchet & Clank - Up Your Arsenal.iso] Ratchet & Clank Up Your Arsenal
+[Ratchet & Clank.iso] Ratchet & Clank
+[Rayman 2 - Revolution (USA).iso] Rayman 2 Revolution
+[Red Dead Revolver (USA).iso] Red Dead Revolver
+[Shadow of the Colossus.iso] Shadow of the Colossus
+[Silent Hill 2.iso] Silent Hill 2
+[Silent Hill 3 (USA) (En,Ja,Fr,De,Es,It,Ko).iso] Silent Hill 3
+[Sly 2 - Band of Thieves.iso] Sly 2 Band of Thieves
+[Sly 3 - Honor Among Thieves.iso] Sly 3 Honor Among Thieves
+[Sly Cooper and the Thievius Raccoonus.iso] Sly Cooper and the Thievius Raccoonus
+[Soulcalibur III (USA).iso] SoulCalibur III
+[Star Wars - Battlefront II (USA).iso] Star Wars Battlefront II
+[Tekken 4.iso] Tekken 4
+[Tekken 5.iso] Tekken 5
+[Tekken Tag Tournament.iso] Tekken Tag Tournament
+[Urban Reign (USA).iso] Urban Reign
+[Virtua Fighter 4 - Evolution (USA).iso] Virtua Fighter 4 Evolution
+[Wheel of Fortune (USA).iso] Wheel of Fortune
+[Yakuza (USA).iso] Yakuza
+[Yakuza 2 (USA).iso] Yakuza 2
+[Yu-Gi-Oh! The Duelists of the Roses (USA).iso] Yu-Gi-Oh! The Duelists of the Roses
+[Deus Ex - The Conspiracy (USA).iso] Deus Ex The Conspiracy
+[Hokuto no Ken - Shinpan no Sousousei Kengo Retsuden (J).iso] Hokuto no Ken
+[Tiger Woods PGA Tour 2004 (USA).iso] Tiger Woods PGA Tour 2004
+[Family Guy - Video Game! (USA).iso] Family Guy
+[Midnight Club - Street Racing (USA).iso] Midnight Club
+[Midnight Club II (USA).iso] Midnight Club
+[Midnight Club 3 - DUB Edition Remix (USA).iso] Midnight Club

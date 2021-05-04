@@ -1,0 +1,21 @@
+; Format for adding CORE configs
+; TYPE { instr(TYPE) }
+; CONFIG { appended config for each CORE listed }
+; DEFAULT { if CORE not found, reset config to default }
+
+CONTROLLER {
+Xbox (Alternate)
+}
+CONFIG {
+A=32777
+B=32776
+X=32779
+Y=32778
+}
+
+DEFAULT {
+A=32776
+B=32777
+X=32778
+Y=32779
+}

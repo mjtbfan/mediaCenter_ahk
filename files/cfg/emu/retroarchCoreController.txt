@@ -1,0 +1,25 @@
+; Format for adding game configs
+; GAME { instr(game) }
+; CONFIG { appended config for each game listed }
+; DEFAULT { if game not found, reset config to default }
+
+; ----- N64 -----
+
+CONTROLLER {
+GCN Adapter
+}
+CONFIG {
+mupen64plus-astick-sensitivity = "112"
+}
+
+CONTROLLER {
+USB N64
+}
+CONFIG {
+mupen64plus-astick-sensitivity = "85"
+}
+
+DEFAULT {
+mupen64plus-astick-deadzone = "0"
+mupen64plus-astick-sensitivity = "100"
+}
