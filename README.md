@@ -12,3 +12,4 @@ Features of the codebase to be improved out of beta:
 - paths for outside programs being pulled from config files instead of hardcoded
 - breaking up helper files into generic helper files & custom user-created helper files for more specific functions
 - removing hardcoded emulator launching scripts to create a generic emu launcher that accepts additional code from config files
+- INLINE COMMENTS
