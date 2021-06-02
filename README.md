@@ -6,8 +6,8 @@ This is a beta version using AutoHotKey v~1.1. I plan to redo the codebase using
 
 Features of the codebase to be improved out of beta:
 - Less scripts running in tandem, rather try to have as much run in a single script w/ additional threads
-- Convert xinput handling to "getstate->check state during loop" rather than the current "getstateforbutton" called multiple times during loop
-- dyanmic resolution handling instead of hardcoded 1920x1080
+- Convert xinput handling to "getstate -> compare value during loop" rather than the current "getstateforbutton" called multiple times during loop
+- dynamic resolution handling instead of hardcoded 1920x1080
 - relative paths for imports & script launching
 - paths for outside programs being pulled from config files instead of hardcoded
 - breaking up helper files into generic helper files & custom user-created helper files for more specific functions
